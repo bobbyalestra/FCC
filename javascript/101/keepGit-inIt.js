@@ -1,4 +1,4 @@
-// //# careerdevs11e
+my code
 // Learning the basics of GIT
 
 
@@ -71,3 +71,27 @@
 // these are the lines of code from github:
 // git remote add origin git@github.com:username/repo.git  this will be ssh 
 // git push -u origin master
+
+
+wills code 
+
+
+1. mkdir <--- create directory
+2. git init <----- initials git repository
+3. code README.md <--- Creates readme
+4. git add -A <--- Save
+5. git commit -m "First Commit" <--- create first comment
+
+
+
+
+
+6. git checkout -b "version001" <--- create new branch named version001
+7. code nameofjsfile.js <--- create .js file
+8. git add -A <--- save
+9. git commit -m "added some stuff to my .js file" <--- comment what you added to the .js file
+10. git checkout master <--- switch to master branch
+11. git merge version001 <--- merge version001 in master(make sure your in master branch first!)
+12. go to github.com and create a new repository then copy and paste remote add origin
+13. git push -u origin master <--- pushes the commits to the remote master branch
+14. git push --all <--- pushes all branches to repo
