@@ -30,4 +30,4 @@ reverseString("")  // call the function , give it quotes on the inside to allow 
 
 
 
-console.log(reverseString("hello"));
+console.log(reverseString("gnirtSesreveRtsrif"));
