@@ -1,3 +1,18 @@
+// one way 
+function reverseString(str) {    // delacre function and the parameter is str
+    let reverseStr = "";   // declare a vale to reverseStr which equals a string
+    for (let i = str.length - 1; i >= 0; i--) { // if i is equal to the length of the str -1, as long as i is less or equal to zero, minus one eachtime
+        reverseStr = str[i]; // declaring reverseStr = the index of str
+        console.log(reverseStr);
+    }
+  }
+  
+  reverseString("gnirtSesrever");
+
+
+
+
+
 
 function reverseString(str) //create the function with the parameter "str"
 {
