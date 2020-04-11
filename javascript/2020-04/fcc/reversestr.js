@@ -29,4 +29,5 @@ return  newArray;
 reverseString("")  // call the function , give it quotes on the inside to allow you to delcare a string. From now on what goes into these function parameters will be reversed
 
 
+
 console.log(reverseString("hello"));
