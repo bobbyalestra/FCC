@@ -10,11 +10,10 @@ function reverseString(str) {    // delacre function and the parameter is str
   reverseString("gnirtSesrever");
 
 
+// prints  letter out per line 
 
-
-
-
-function reverseString(str) //create the function with the parameter "str"
+ 
+function reverseString1(str) //create the function with the parameter "str"
 {
 let reverseStr = str.split("");   // take the function name and have it equal the parameteres with a .split and ("") to open the function and be able to assign a new value to str
 let reverseArray = reverseStr.reverse(); // the array reverseArray now equals the variable reverseStr add the .reverse() method
@@ -26,8 +25,11 @@ return  newArray;
 // use return to return the result of the newly assigned "newArray"
 
 }
-reverseString("")  // call the function , give it quotes on the inside to allow you to delcare a string. From now on what goes into these function parameters will be reversed
+reverseString1("")  // call the function , give it quotes on the inside to allow you to delcare a string. From now on what goes into these function parameters will be reversed
 
 
 
-console.log(reverseString("gnirtSesreveRtsrif"));
+console.log(reverseString1("gnirtSesreveRtsrif"));
+
+
+// reverses in a string correctly
