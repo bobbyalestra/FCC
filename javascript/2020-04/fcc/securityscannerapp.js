@@ -25,7 +25,7 @@ let parkingGate = {
     console.log(this.patronNameScannedInParkingLot);
   },
   outScan: function() {
-    if (this.keyFobScannedInPentagon == this.currentKeyFobScanned) {
+    if (this.keyFobScannedInPentagon.includes(this.currentKeyFobScanned)) {
       
       this.keyFobScannedOutofPentagon.push(this.keyFobScannedInPentagon.splice(this.keyFobScannedInPentagon.indexOf(this.currentKeyFobScanned), 1    ).pop()  );
       
